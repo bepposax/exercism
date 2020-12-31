@@ -1,0 +1,88 @@
+y != a	flag: false
+true
+u != a	flag: false
+u != e	flag: false
+u != i	flag: false
+u != o	flag: false
+u != u	flag: false
+true
+a != a	flag: false
+true
+o != a	flag: false
+o != e	flag: false
+o != i	flag: false
+o != o	flag: false
+true
+
+i != a	flag: false
+
+i != e	flag: false
+
+i != i	flag: false
+
+true
+e != a	flag: false
+e != e	flag: false
+true
+e != a	flag: false
+e != e	flag: false
+true
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+e != a	flag: false
+e != e	flag: false
+true
+c != a	flag: false
+c != e	flag: false
+c != i	flag: false
+c != o	flag: false
+c != u	flag: false
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+o != a	flag: false
+o != e	flag: false
+o != i	flag: false
+o != o	flag: false
+true
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+a != a	flag: false
+true
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+y != a	flag: false
+true
+u != a	flag: false
+u != e	flag: false
+u != i	flag: false
+u != o	flag: false
+u != u	flag: false
+true
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+r != a	flag: false
+r != e	flag: false
+r != i	flag: false
+r != o	flag: false
+r != u	flag: false
+u != a	flag: false
+u != e	flag: false
+u != i	flag: false
+u != o	flag: false
+u != u	flag: false
+true

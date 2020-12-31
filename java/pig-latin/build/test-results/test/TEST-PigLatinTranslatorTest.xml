@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PigLatinTranslatorTest" tests="22" skipped="0" failures="2" errors="0" timestamp="2020-06-09T15:08:55" hostname="WIN10-PC" time="0.058">
+  <properties/>
+  <testcase name="testYAsSecondLetterInTwoLetterWord" classname="PigLatinTranslatorTest" time="0.036"/>
+  <testcase name="testAWholePhrase" classname="PigLatinTranslatorTest" time="0.005">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[quickickquay astfay unr]ay&gt; but was:&lt;[uick fast runq]ay&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[quickickquay astfay unr]ay&gt; but was:&lt;[uick fast runq]ay&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at PigLatinTranslatorTest.testAWholePhrase(PigLatinTranslatorTest.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testWordBeginningWithQWithoutAFollowingU" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testWordBeginningWithA" classname="PigLatinTranslatorTest" time="0.001"/>
+  <testcase name="testWordBeginningWithE" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testWordBeginningWithI" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testWordBeginningWithK" classname="PigLatinTranslatorTest" time="0.001"/>
+  <testcase name="testWordBeginningWithO" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testWordBeginningWithP" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testWordBeginningWithU" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testWordBeginningWithX" classname="PigLatinTranslatorTest" time="0.001"/>
+  <testcase name="testYTreatedLikeAConsonantAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.001"/>
+  <testcase name="testQuAndAPrecedingConsonantTreatedLikeAConsonantAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.002"/>
+  <testcase name="testWordBeginningWithVowelAndFollowedByQu" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testThTreatedLikeAConsonantAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testSchTreatedLikeAConsonantAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.002"/>
+  <testcase name="testChTreatedLikeAConsonantAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.002"/>
+  <testcase name="testYTreatedLikeAVowelAtTheEndOfAConsonantCluster" classname="PigLatinTranslatorTest" time="0.001"/>
+  <testcase name="testYtTreatedLikeAVowelAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.0"/>
+  <testcase name="testQuTreatedLikeAConsonantAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.001">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[eenqu]ay&gt; but was:&lt;[ueenq]ay&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[eenqu]ay&gt; but was:&lt;[ueenq]ay&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at PigLatinTranslatorTest.testQuTreatedLikeAConsonantAtTheBeginningOfAWord(PigLatinTranslatorTest.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testThrTreatedLikeAConsonantAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.003"/>
+  <testcase name="testXrTreatedLikeAVowelAtTheBeginningOfAWord" classname="PigLatinTranslatorTest" time="0.0"/>
+  <system-out><![CDATA[y != a	flag: false
+true
+u != a	flag: false
+u != e	flag: false
+u != i	flag: false
+u != o	flag: false
+u != u	flag: false
+true
+a != a	flag: false
+true
+o != a	flag: false
+o != e	flag: false
+o != i	flag: false
+o != o	flag: false
+true
+i != a	flag: false
+i != e	flag: false
+i != i	flag: false
+true
+e != a	flag: false
+e != e	flag: false
+true
+e != a	flag: false
+e != e	flag: false
+true
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+e != a	flag: false
+e != e	flag: false
+true
+c != a	flag: false
+c != e	flag: false
+c != i	flag: false
+c != o	flag: false
+c != u	flag: false
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+o != a	flag: false
+o != e	flag: false
+o != i	flag: false
+o != o	flag: false
+true
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+a != a	flag: false
+true
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+y != a	flag: false
+true
+u != a	flag: false
+u != e	flag: false
+u != i	flag: false
+u != o	flag: false
+u != u	flag: false
+true
+h != a	flag: false
+h != e	flag: false
+h != i	flag: false
+h != o	flag: false
+h != u	flag: false
+r != a	flag: false
+r != e	flag: false
+r != i	flag: false
+r != o	flag: false
+r != u	flag: false
+u != a	flag: false
+u != e	flag: false
+u != i	flag: false
+u != o	flag: false
+u != u	flag: false
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
