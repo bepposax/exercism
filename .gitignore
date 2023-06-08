@@ -1,4 +1,4 @@
-**/.exercism
-**/.vscode
-**/.vs
-**/.gradle
+.exercism
+.vscode
+.vs
+.gradle
