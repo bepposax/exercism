@@ -1,5 +1,4 @@
-.exercism
-.vscode
-.vs
-.gradle
-bash/**
+**/.exercism
+**/.vscode
+**/.vs
+**/.gradle
